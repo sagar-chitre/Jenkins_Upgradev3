@@ -11,7 +11,7 @@ job('First-Maven-Project-Via-DSL') {
     }
     publishers {
         //archive the war file generated
-        //archiveArtifacts '**/*.jar'
-        archiveArtifacts artifacts: '**/*.jar', followSymlinks: false
+        archiveArtifacts '**/*.jar'
+        //archiveArtifacts artifacts: '**/*.jar', followSymlinks: false
     }
 }
