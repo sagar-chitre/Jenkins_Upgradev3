@@ -3,7 +3,7 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is Anshul from LevelUp360'
+                        echo 'Hi, this is Sagar, and this is the test for the linux execution of DSL via pipeline
                         echo 'We are Starting the Testing'
                   }
             }
@@ -12,7 +12,7 @@ pipeline {
                         echo 'Building Sample Maven Project'
                   }
             }
-            stage('Deploy') {
+            stage('Deploy Stagging') {
                   steps {
                         echo "Deploying in Staging Area"
                   }
