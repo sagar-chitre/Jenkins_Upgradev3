@@ -3,7 +3,7 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is Sagar, and this is the test for the linux execution of DSL via pipeline
+                        echo 'Hi, this is Sagar, and this is the test for the linux execution of DSL via pipeline'
                         echo 'We are Starting the Testing'
                   }
             }
